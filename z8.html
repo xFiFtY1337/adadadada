@@ -1,0 +1,24 @@
+<html>
+<head>
+<script type="text/javascript">
+function okno_zamknij_wieteska() 
+ {
+ window.close()
+ }
+</script>
+</head>
+<body>
+<div style="color:red;font-size:50px;">
+ <script language="JavaScript">
+var liczba1_wie=prompt("1 dzien=","");
+var liczba2_wie=prompt("2 dzien=","");
+var ile_sekund_wie;
+var d1_wie=parseFloat(liczba1_wie);
+var d2_wie=parseFloat(liczba2_wie);
+ile_sekund_wie=d1_wie*86400-d2_wie*86400;
+document.write("ile_sekund="+ile_sekund_wie+"<br>");
+ </script><br>
+ <input type="button" value="zamknij okno" onclick="okno_zamknij_wieteska()"/>
+</div>
+</body>
+</html>

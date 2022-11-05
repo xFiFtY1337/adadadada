@@ -1,0 +1,22 @@
+<html>
+<head>
+<script type="text/javascript">
+function okno_zamknij_wieteska() 
+ {
+ window.close()
+ }
+</script>
+</head>
+<body>
+<div style="color:red;font-size:25px;">
+<script language="JavaScript">
+var liczba1_wie=prompt("podaj liczbe=","");
+var m_wie=parseFloat(liczba1_wie);
+document.write("postać dziesietna: "+1/m_wie+"="+(1/(m_wie+2))+"+"+(1/((m_wie+1)*(m_wie+2)))+"+"+(1/(m_wie*(m_wie+1)))+"<br>");
+document.write("postać ułamkowa: "+1+"/"+m_wie+"="+(1+"/"+(m_wie+2))+"+"+(1+"/"+((m_wie+1)*(m_wie+2)))+"+"+(1+"/"+(m_wie*(m_wie+1)))+"<br>");
+ </script>
+ </div>
+</body><br>
+<input type="button" value="zamknij okno" onclick="okno_zamknij_wieteska()"/>
+</html>
+

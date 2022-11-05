@@ -1,0 +1,54 @@
+<html>
+ <head>
+<script type="text/javascript">
+function okno_zamknij_wieteska() 
+ {
+ window.close()
+ }
+</script>
+</head>
+</head>
+<body>
+
+<h1>Rodzaje okienek</h1>
+<ul>
+<li>Okienko <b>alert</b> - wyświetlająca okienko dialogowe z informacją i przyciskiem OK</li>
+<li>Okienko <b>alert</b> – generująca okno, w którym użytkownik może wpisać wartość, zwracaną następnie do programu</li>
+<li>Okienko <b>confirm</b> - służy do tego, aby użytkownik coś potwierdził (stąd nazwa confirm)</li>
+</ul><br>
+
+
+<h1>Konwersji liczb</h1>
+Wczytanie zmiennej z użyciem <b>prompt</b> wykonywane jest jako ciąg znaków dlatego konieczna jest<br> 
+konwersji z ciągu znaków na wartości liczbowe aby wykonywac obliczenia.
+<br>
+parseFloat(zmienna) - konwersja zmiennej do typu float
+parseInt(zmienna) - konwersja zmiennej do typu int (liczbowego)
+toString(zmienna) - konwersja zmiennej do typu łańcuchowego<br>
+
+<h1>Typy zmiennych w Javascript</h1>
+<ul>
+<li><b>Number</b> - Typ liczbowy (zmienna całkowite, zmiennoprzecinkowe</li>
+<li><b>String</b> - Typ tekstowy</li>
+<li><b>Boolea</b> - Typ logiczny</li>
+<li><b>Null</b> - Pusta zawartość</li>
+<li><b>Undefined</b> - Typ niezidentyfikowany</li>
+<li><b>Object</b> - Obiekt</li>
+</ul>
+
+
+<h1>Zasady nadawaniu nazw zmiennym</h1>
+<ul>
+<li>Nazwa zmiennej musi się zaczynać od litery, znaku "$" lub "_", może zawierać tylko litery (bez polskich znaków), cyfry oraz "$" i "_"<br>
+<u>Poprawne nazwy zmiennych</u>: zmienna1, $wynik, _rozmiar, wynik1, Rekord, $_gracz<br>
+<u>Błędne nazwy zmiennych</u>: 1zmienna, wynik gry, wysokosc&szerokosc, wynik.rekord, &gracz, 
+wysokość, imie+nazwisko</li>
+<li> Wielkość liter ma znaczenie.<br>
+<u>Rekord</u> i rekord to dwie różne zmienne! Jest to bardzo częsta przyczyna błędów w kodzie 
+początkujących programistów.
+</li>
+<li>Należy nie używać słów kluczowych JavaScript jako nazw zmiennych.</li>
+</ul><br>
+<input type="button" value="zamknij okno" onclick="okno_zamknij_wieteska()"/>
+</body>
+</html>

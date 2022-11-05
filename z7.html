@@ -1,0 +1,24 @@
+<html>
+<head>
+<script type="text/javascript">
+function okno_zamknij_wieteska() 
+ {
+ window.close()
+ }
+</script>
+</head>
+<body>
+<div style="color:red;font-size:50px;">
+ <script language="JavaScript">
+var liczba1_wie=prompt("liczba1=","");
+var liczba2_wie=prompt("liczba2=","");
+var suma_wie;
+ var a_wie=parseFloat(liczba1_wie);
+ var b_wie=parseFloat(liczba2_wie);
+ suma_wie=a_wie+b_wie;
+ document.write("suma="+a_wie+" + "+b_wie+" = "+suma_wie+"<br>");
+ </script>
+</div><br>
+<input type="button" value="zamknij okno" onclick="okno_zamknij_wieteska()"/>
+</body>
+</html>
