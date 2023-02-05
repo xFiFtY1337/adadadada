@@ -1,0 +1,38 @@
+<textarea cols="50" rows="50">
+<!DOCTYPE html>
+<html lang="pl">
+<head> 
+<meta charset="utf-8">
+ <title></title>
+ <script language="JavaScript">
+ var x=prompt("podaj pierwsza liczbe=","");
+ var y=prompt("podaj druga liczbe=","");
+ 
+ if(x>y)
+ {
+ for (var i=x; i>=y; i--)
+ {
+ if(i%2>=1)
+ {document.write("<font color=blue size=5>"+i+", </font>");}
+ }
+ }
+ 
+ if(y>x)
+ {
+ for (var i=x; i<=y; i++)
+ {
+ if(i%2>=1)
+ {document.write("<font color=green size=10>"+i+", </font>");}
+ }
+ }
+ 
+ if(x==y)
+ {
+ {document.write("<font color=black size=10>Liczby są sobie równe</font>");}
+ }
+ </script>
+</head> 
+<body> 
+</body> 
+</html>
+</textarea>
