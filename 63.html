@@ -1,0 +1,22 @@
+<html>
+<body>
+<div style="color:red;font-size:50px;">
+<h1 style="color: green;">Meanu</h1><br>
+<h3 style="color: red;">1-Czerowny</h3>
+<h3 style="color: blue;">2-Niebieski</h3>
+<script language="JavaScript">
+function show_prompt() 
+{ 
+var x=prompt("napisz nazwe koloru/liczbe=","");
+var a_wie=x.toLowerCase();
+
+if(a_wie==1)
+{document.write("<font color=red size=7>wczytałeś kolor czerwony</font>"+"<br>");}
+if(a_wie==2)
+{document.write("<font color=blue size=1>wczytałeś kolor niebieski</font>"+"<br>");}
+}
+ </script>
+</div>
+<input type="button" onclick="show_prompt()" value="Oblicz" />
+</body>
+</html>
