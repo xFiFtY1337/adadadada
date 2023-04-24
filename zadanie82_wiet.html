@@ -1,0 +1,42 @@
+<html> 
+<head> 
+<title> Zadanie 82</title>
+ <script language="JavaScript">
+ function pushbutton() {
+ alert("Czesc !");}
+ </script>
+ <style>
+ h1
+ {
+ font-size: 75px;
+ color: red;
+ }
+ p
+ {
+ color: green;
+ font-size: 30px;
+ }
+ </style>
+</head> 
+<body>
+<h1>Daniel Wieteska</h1>
+<p>dzis = new Date() - przypisanie daty do zmiennej dzis</p>
+<p>dzis = dzis.getHours() - wyswietlenie godziny ze zmiennej dzis</p>
+<p>dzis = dzis.getMinutes() - wyswietlenie minut ze zmiennej dzis</p>
+<p>dzis = dzis.getMonth() - wyswietlenie miesiąca ze zmiennej dzis</p>
+<p>dzis = dzis.getDate() - wyswietlenie ostatnich 2 liczb roku ze zmiennej dzis</p>
+<p>dzis = dzis.getDate() - wyswietlenie roku ze zmiennej dzis</p>
+Ostatnio zmodyfikowany 
+<script language="LiveScript">
+ document.write(document.lastModified,"<br>")
+</script>
+<form>
+ <input type="button" name="Button1" value="Naciśnij mnie" onclick="pushbutton()">
+</form> 
+<script language="JavaScript">
+ dzis = new Date()
+ document.write("<br>Aktualny czas : ",dzis.getHours(),":",dzis.getMinutes())
+ document.write("<br>Aktualna data : ",dzis.getMonth()+1,",",dzis.getDate(),",",dzis.getFullYear());
+</script>
+</body> 
+</html>
